@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdur-Razaaq Jardien</title>
+    <!--External CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/cce18f0ce0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--My CSS-->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-links">
+        <li id="navbar-link">
+          <a href="./index.html" class="navbar-anchor" id="logo">ARJ</a>
+        </li>
+        <li class="navbar-link">
+          <a href="./index.html" class="navbar-anchor">Home</a>
+        </li>
+        <li class="navbar-link">
+          <a href="./about.html" class="navbar-anchor">About</a>
+        </li>
+        <li class="navbar-link">
+          <a href="./skills.html" class="navbar-anchor">Skills</a>
+        </li>
+        <li class="navbar-link">
+          <a href="./portfolio.html" class="navbar-anchor">Portfolio</a>
+        </li>
+        <li class="navbar-link">
+          <a href="./testimonials.html" class="navbar-anchor">Testimonials</a>
+        </li>
+        <li class="navbar-link">
+          <a href="./contact.html" class="navbar-anchor">Contact</a>
+        </li>
+        <div>
+          <li>
+            <a
+              id="social-link"
+              target="_blank"
+              href="https://github.com/Abdur-Razaaq"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              id="social-link"
+              target="_blank"
+              href="https://www.linkedin.com/in/abdur-razaaq-jardien-819ba21a2/"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+        </div>
+      </ul>
+      <button class="navbar-button" onclick="toggleNavbar()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <div class="landing" id="lingish">
+    <section>
+      <h3 id="s-header">Get in touch...</h3>
+      <div id="contact-icons">
+      <div id="contact-icon">
+        <i class="fas fa-phone-alt"></i>
+        <h4>Phone</h4>
+        <p>Call me at:</p>
+        <p><span>(+27)67 156 5179</span></p>
+      </div>
+      <div id="contact-icon">
+        <i class="fas fa-envelope"></i>
+        <h4>Email</h4>
+        <p>Email me at:</p>
+        <a target="_blank" id="c-link" href="mailto:zakjardien23@gmail.com"><span>Abdur-Razaaq Jardien</span></a>
+      </div>
+    </section>
+      <form
+      action=https://formspree.io/f/xwkalppe
+      method="POST"
+      id="contact-form"
+    >
+      <h1 class="contact-heading">Contact Me!</h1>
+      <!--Name-->
+      <div class="contact-details">
+        <label for="name" class="contact-label">Full Name: </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Full Name"
+          required
+          class="contact-input"
+        />
+      </div>
+
+      <!--Email Address-->
+      <div class="contact-details">
+        <label for="email" class="contact-label">Email Address: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="your@email.com"
+          required
+          class="contact-input"
+        />
+      </div>
+
+      <!--Phone Number-->
+      <div class="contact-details">
+        <label for="Phone" class="contact-label">Contact Number: </label>
+        <input
+          type="tel"
+          name="Phone"
+          placeholder="012 345 6789"
+          id="Phone"
+          class="contact-input"
+        />
+      </div>
+
+      <!--Message-->
+      <div class="contact-details">
+        <label>
+          <textarea
+            name="message"
+            placeholder="Enter your Message Here"
+            class="contact-input"
+            id="textarea"
+          ></textarea>
+        </label>
+      </div>
+
+      <!--Button-->
+      <button type="submit" class="button">Send</button>
+    </form>
+    </div>
+    <!--Scripts-->
+        <div id="footer">
+        <a class="footer-link" href="./index.html">ARJ</a>
+       <p>        <i class="far fa-copyright"></i> Abdur-Razaaq Jardien 2021. By
+        Abdur-Razaaq Jardien</p>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
