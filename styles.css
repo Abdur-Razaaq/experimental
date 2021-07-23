@@ -401,6 +401,11 @@ span {
 }
 
 /*Porfolio*/
+
+#carousel {
+  padding: 5%;
+}
+
 .card-container {
   display: flex;
   justify-content: center;
@@ -408,10 +413,26 @@ span {
   padding: 5% 10%;
 }
 
+#o-header {
+  display: flex;
+  font-size: 44px;
+  text-shadow: 1px 1px #ffffff;
+  justify-content: center;
+  padding: 1%;
+  text-decoration: underline;
+}
+
 .card-container-heading {
   width: 100%;
   text-align: center;
   color: rgb(52, 0, 54);
+}
+
+#opening-p {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 1%;
+  text-align: center;
 }
 
 .card {
