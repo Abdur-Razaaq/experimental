@@ -704,13 +704,23 @@ q {
   .timeline-items {
     grid-column: 2;
   }
-}
 
-@media screen and (max-width: 800px) {
+  #h-heading {
+    font-size: 20px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .navbar-links {
     top: -100%;
     right: -100%;
     width: 100vw;
     height: 100vh;
+  }
+
+  .button {
+    text-align: center;
   }
 }
